@@ -1,0 +1,167 @@
+<link rel = "stylesheet" href = "/css/secondcss.css" type ="text/css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<html lang="en">
+    
+    <body class="fname">
+        <form action = "/">
+            <button class="btn btn-warning">Home
+        </button>
+        </form>
+        <form action = "/feed/{{slug}}">
+            <button class="btn btn-danger">feed
+        </button>
+        </form>
+        
+       
+        
+<form action = "/profile/{{slug}}/update" method = "POST" class="hot" id = "hot">
+   
+    
+    
+    
+    
+     Interests<input type = "text" name ="interests" id ="interests">
+    
+    
+    
+    update!<input type = "submit" class="btn btn-info">
+   
+    
+
+    
+        </form>
+        <form action="/profile/{{slug}}/updatephoto" method="post" enctype="multipart/form-data" >
+  <input type="file" name="avatar" />
+            Add photo<input type = "submit">
+</form>
+        <form action="/profile/{{slug}}/updatevideo" method="post" enctype="multipart/form-data">
+  <input type="file" name="avatar" />
+            Add video<input type = "submit">
+        </form>
+        <form action = "/profile/{{slug}}/addfriend" method = "POST" class="hot" id = "hot">
+   
+    
+    
+    
+    
+     Add Friend<input type = "text" name ="friend" id ="friend" >
+    
+    
+    
+    update!<input type = "submit" class="btn btn-light">
+   
+    
+
+    
+        </form>
+        <form action = "/profile/{{slug}}/posts" method = "POST" class="hot" id = "hot">
+   
+    
+    
+    
+    
+     How are you feeling?<input type = "text" name ="post" id =post>
+    
+    
+    
+    update!<input type = "submit" "btn btn-dark">
+   
+    
+
+    
+        </form>
+        <button id = "animate">animate photos </button>
+        <button id = "goblin">change styles</button>
+        <form action = "/carousel/{{slug}}" method = "POST" class="hot" id = "hot">
+            see your carousel<input type = "submit" class="btn btn-danger">
+        </form>
+        <div id = "output" class = "emoji">
+            <form>
+            <a class = "moving_guy">
+               {{{videos}}}
+            </a> 
+           <a>
+               {{{interests}}}
+            </a> 
+            <a >
+                {{{photos}}}
+            </a>
+            <a>
+                {{{friends}}}
+            </a>
+            <a>
+                {{{posts}}}
+            </a>
+           </form>
+            
+        </div>
+        
+       
+       <script src ="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script >
+          $(document).ready(function(){
+	// when document loads (ready)
+	$('#goblin').on('click',function(){
+		// click on the button
+	// select all <p>
+	// change the style of p elements
+    $("#special").css("background-color", "pink");
+    $("#special").css("color", "green");
+        $(".highlight").css("color", "green");
+        $(".highlight").css("background-color", "yellow");
+        $("a").each(function(){
+
+        	// extract text from each li
+            $(this).css("color","green");
+            $(this).css("background-color","aqua");
+            $(this).css("width","300px");
+            $(this).css("border","solid 3px pink");
+            
+        });
+        $("img").each(function(){
+
+        	// extract text from each li
+            $(this).css("color","green");
+            $(this).css("background-color","aqua");
+            $(this).css("width","300px");
+            $(this).css("border","solid 3px pink");
+            
+        });
+        
+ });
+    
+   
+    
+});
+
+$(document).ready(function(){
+	// select any paragrapgh that you click on
+   
+      $('#animate').on('click',function(){
+          console.log("success");
+        
+       $(".moving_guy").animate({
+            left: '300px',
+            
+           
+            
+        });
+        
+        });  
+   
+    
+    
+    
+
+});
+//the . refers to a class # refers to an id
+        
+        
+        
+        
+        </script>
+        </body>
+   
+
+</html>

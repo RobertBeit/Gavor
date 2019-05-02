@@ -1,0 +1,470 @@
+.First_class{
+    color:green
+}
+#First_id{
+    color:red;
+}
+
+
+div.emoji{
+    position:relative;
+   
+    
+    width: 7000px;
+    height:5000px;
+    border: 10px solid #73AD21;
+    color:aqua;
+}
+div.bob{
+    position:absolute;
+    
+    top: 100px;
+    right: 100px;
+    width: 600px;
+    height:600px;
+    border: 10px solid #73AD21;
+    color:aqua;
+}
+div.inside_list{
+    position:absolute;
+    top: 100px;
+    left: 100px;
+    width:500px;
+    height:500px;
+    border: 10px solid #73AD21;
+    color:aqua;
+    
+}
+div.inside_list_2{
+    position:absolute;
+    top: 800px;
+    left: 100px;
+    width:500px;
+    height:500px;
+    border: 10px solid #73AD21;
+    color:aqua;
+    
+}
+
+
+.inside_link:link{
+    position:absolute;
+   
+    top: 100px;
+    left: 700px;
+    width: 200px;
+    height:200px;
+    border: 10px solid #73AD21;
+    color:red;
+}
+.inside_link:focus{
+    
+}
+.inside_link:hover{
+    
+}
+.inside_link:visited{
+    
+}
+.inside_link:active{
+    
+}
+
+h1 {
+ color: rgb(255,100,0);}
+
+.class_1:link{
+    
+    border: 1px solid blue;
+    font-family:inherit;
+    color:cadetblue;
+}
+.class_1:visited{
+    color:darkred;
+}
+.class_1:focus{
+    color:deeppink;
+}
+.class_1:hover{
+    color:aquamarine;
+}
+.class_1:active{
+    color:mediumvioletred;
+}
+.class_2:link{
+    background-color:navajowhite;
+    border: 1px solid #73AD21;
+    font-family: fantasy;
+    color:blueviolet;
+}
+.class_2:visited{
+    color:darkred;
+}
+.class_2:focus{
+    color:deeppink;
+}
+.class_2:hover{
+    color:aquamarine;
+}
+.class_2:active{
+    color:mediumvioletred;
+}
+
+
+
+.class_3:link{
+    
+    border: 1px solid teal;
+    color:teal;
+    font-family: fantasy;
+    
+}
+.class_3:visited{
+    color:darkcyan;
+}
+.class_3:focus{
+    color:deeppink;
+}
+.class_3:hover{
+    color:aquamarine;
+}
+.class_3:active{
+    color:mediumvioletred;
+}
+.class_3:focus{
+    color:deeppink;
+}
+.class_4:link{
+    border: 1px solid hotpink;
+    font-family:fantasy;
+    color:plum;
+}
+.class_4:visited{
+    border: 1px solid orange;
+    color:red;
+    font-family:cursive;
+    
+}
+.class_4:focus{
+    color:deeppink;
+}
+.class_4:hover{
+    color:aquamarine;
+}
+.class_4:active{
+    color:mediumvioletred;
+}
+.class_4:focus{
+    color:deeppink;
+}
+.class_5:link{
+    border: 1px solid pink;
+    color:aqua;
+    font-family: fantasy;
+}
+.class_5:visited{
+    color:red;
+}
+.class_5:focus{
+    color:deeppink;
+}
+.class_5:hover{
+    color:aquamarine;
+}
+.class_5:active{
+    color:mediumvioletred;
+}
+.class_5:focus{
+    color:deeppink;
+}
+
+.class_6:link{
+    position:absolute;
+   
+    top: 100px;
+    left: 1900px;
+    width: 200px;
+    height:200px;
+    border: 10px solid #73AD21;
+    color:plum;
+}
+.class_6:visited{
+    color:beige;
+}
+.class_6:focus{
+    color:deeppink;
+}
+.class_6:hover{
+    color:aquamarine;
+}
+.class_6:active{
+    color:mediumvioletred;
+}
+.class_6:focus{
+    color:deeppink;
+}
+.class_7:link{
+    
+    
+    color:plum;
+    font-family:serif;
+    font-style:oblique;
+    
+}
+.class_7:visited{
+    color:beige;
+    
+}
+.class_7:focus{
+    color:deeppink;
+}
+.class_7:hover{
+    color:aquamarine;
+}
+.class_7:active{
+    color:mediumvioletred;
+}
+.class_7:focus{
+    color:deeppink;
+}
+.hotguy1 img{
+    position:absolute;
+    top:500px;
+    left:100px;
+    width:1000px;
+    height:auto;
+    
+    border: 10px solid #73AD21;
+    color:plum;
+}
+.hotguy2 img{
+    position:absolute;
+    top:500px;
+    left:1100px;
+    width:1000px;
+    height:auto;
+    
+    border: 10px solid #73AD21;
+    color:plum;
+}
+.hotguy3 img{
+    position:absolute;
+    top:500px;
+    left:2100px;
+    width:1000px;
+    height:auto;
+    
+    border: 10px solid #73AD21;
+    color:plum;
+}
+.hotguy4 img{
+    position:absolute;
+    top:500px;
+    left:3100px;
+    width:1000px;
+    height:auto;
+    
+    border: 10px solid #73AD21;
+    color:plum;
+}
+
+.hotguy5 img{
+    position:absolute;
+    top:500px;
+    left:4100px;
+    width:1000px;
+    height:auto;
+    
+    border: 10px solid #73AD21;
+    color:plum;
+}
+.text_box{
+    position:absolute;
+    top:100px;
+    left:2000px;
+    font-family: fantasy;
+    font-size: 300px;
+    color:darkorange;
+}
+.youtube_1 iframe{
+    position:absolute;
+    top:500px;
+    left:600px;
+    height:1000px;
+    width:1000px;;
+    border: 10px solid #73AD21;
+    color:mediumaquamarine;
+}
+.youtube_2 iframe{
+    position:absolute;
+    top:500px;
+    left:1700px;
+    height:1000px;
+    width:1000px;
+    border: 10px solid #73AD21;
+    color:mediumaquamarine;
+}
+.youtube_3 iframe{
+    position:absolute;
+    top:500px;
+    left:2800px;
+    height:1000px;
+    width:1000px;
+    border: 10px solid #73AD21;
+    color:mediumaquamarine;
+}
+.youtube_4 iframe{
+    position:absolute;
+    top:500px;
+    left:3900px;
+    height:1000px;
+    width:1000px;
+    border: 10px solid #73AD21;
+    color:mediumaquamarine;
+}
+.carousel-inner img{
+    display:block;
+    margin:auto;
+    width: 25%;
+}
+
+
+.navbar navbar-default{
+    color:hotpink;
+    background-color:hotpink;
+    font-family:cursive;
+    
+}
+.nav navbar-nav{
+    color:gold;
+    background-color: navy;
+    border: 1px solid green;
+    
+}
+.navbar-brand{
+    color:darkgoldenrod;
+    background-color: royalblue;
+    border: 1px solid navy;
+}
+.container_1{
+    background-color:navy;
+    width:50%;
+    height:50%;
+    position:absolute;
+    
+}
+.youtube_a{
+    float:left;
+    
+    
+}
+.moving_guy{
+    position:relative;
+    width:100%;
+    
+   
+    
+}
+
+.image{
+    display:block;
+    margin:auto;
+    width:auto;
+    height:auto;
+    
+    max-width:100%;
+}
+.image_2{
+    width:20%;
+    float:right;
+}
+
+.Majors{
+    font-family:fantasy;
+    margin-left:20%;
+    float:left;
+    color:aqua;
+}
+.classes{
+    font-family:cursive;
+    margin-right:20%;
+    float:right;
+    color:darkgreen;
+}
+.fname{
+    color:chartreuse;
+    border: 10px solid #73AD21;
+}
+.email{
+    font-family: cursive;
+    color:mediumslateblue;
+    border: 10px solid #1E90FF;
+    
+}
+.password{
+    font-family: fantasy;
+    color:blueviolet;
+    border: 10px solid #7B68EE;
+    
+}
+.interested{
+    font-family:fantasy;
+    color:lightcoral;
+    border: 10px solid #FFDAB9;
+    
+}
+.credit{
+    font-family:fantasy;
+    color:palevioletred;
+    border: 10px solid #A52A2A;
+    
+}
+.gender{
+    color:fuchsia;
+    border: 10px solid #32CD32;
+    
+}
+.submission{
+    color:mediumseagreen;
+    border: 10px solid #73AD21;
+    
+}
+.state{
+    color:orange;
+    border: 10px solid cyan;
+    
+}
+.press{
+    color:aquamarine;
+    border: 10px solid cyan;
+}
+.Legendary{
+    color:darkkhaki;
+    font-family: fantasy;
+}
+.day{
+    color:darkorange;
+    font-family: fantasy;
+    
+}
+.fav{
+    color:crimson;
+    font-family: fantasy;
+}
+.dank{
+    color:lightcoral;
+    font-family: cursive;
+    
+}
+.Hot{
+    
+    color:darkred;
+    font-family:fantasy;
+    
+}
+body {
+    background-image: url('images/halloween.jpg');
+	background-position: center bottom;
+	background-attachment: fixed;
+	background-size: cover;
+}

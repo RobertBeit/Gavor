@@ -1,0 +1,69 @@
+<link rel = "stylesheet" href = "/css/secondcss.css" type ="text/css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<html lang="en">
+    <body class="fname">
+<form action = "/register" method = "POST" class="hot" id = "hot">
+   
+    
+    
+    
+    
+     Username<input type = "text" name ="username" id ="special" class="moving guy">
+    Full Name<input type = "text" name ="fullname" id ="goblin" class="moving_guy">
+    Password<input type = "password" name ="password" id = "goblin" class="highlight">
+
+    <input type = "submit" class="btn btn-success">
+   
+    
+
+    
+        </form>
+        <script src ="https://code.jquery.com/jquery-3.3.1.js"></script>
+     <script>
+         $(document).ready(function(){
+	// when document loads (ready)
+	$('#goblin').on('click',function(){
+		// click on the button
+	// select all <p>
+	// change the style of p elements
+    $("#special").css("background-color", "pink");
+    $("#special").css("color", "green");
+        $(".highlight").css("color", "green");
+        $(".highlight").css("background-color", "yellow");
+        $("p").each(function(){
+
+        	// extract text from each li
+            $(this).css("color","green");
+            $(this).css("background-color","aqua");
+            $(this).css("width","300px");
+            $(this).css("border","solid 3px pink");
+            alert($(this).text());
+        });
+        
+ });
+    
+   
+    
+});
+
+$(document).ready(function(){
+	// select any paragrapgh that you click on
+   
+    $('#animate').on('click',function(){
+        
+       $(".moving_guy").animate({
+            left: '300px'
+        });
+        
+        });
+    
+    
+
+});
+//the . refers to a class # refers to an id
+        </script>
+        </body>
+    
+
+</html>
